@@ -1,0 +1,339 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@media screen and (max-width:805px){
+    #secondMenu{
+        display: flex;
+        visibility: hidden;
+        flex-direction: column;
+        align-items: center;
+    }
+    #secondMenu .lists{
+        padding: 10px;
+        margin-top:10px;
+    }
+    #secondMenu .lists a{
+        text-decoration: none;
+        cursor: pointer;
+        color: white;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:805px){
+      #mainMenu{
+          display:none;
+      }
+      #openMenu{
+        display:flex;
+        margin-left: 350px;
+        align-items: center;  
+        margin-top: 30px;
+    }
+    #nextMenu{
+        width: 100%;
+        background-color:#122a2f ;
+        transition: all .2s ;
+    }
+    }
+@media screen and (max-width:600px){
+        #openMenu{
+          display:flex;
+          margin-left: 350px;
+          align-items: center;  
+          margin-top: 30px;
+      }
+      }
+@media screen and (max-width:530px){
+        #openMenu{
+          display:flex;
+          margin-left: 280px;
+          align-items: center;  
+          margin-top: 30px;
+      }
+      }
+@media screen and (max-width:460px){
+        #openMenu{
+          display:flex;
+          margin-left: 210px;
+          align-items: center;  
+          margin-top: 30px;
+      }
+      }
+@media screen and (max-width:390px){
+        #openMenu{
+          display:flex;
+          margin-left: 140px;
+          align-items: center;  
+          margin-top: 30px;
+      }
+      }
+
+      @media only screen and (min-width: 805px) {
+        #nextMenu {
+            display: none;
+        }
+        .secondMenu{
+            display: none;
+        }
+    }
+
+@media only screen and (max-width:600px){
+    .logo{
+        padding-top: 5px;
+        padding-left: 0px;
+    }
+@media only screen and (max-width:600px){
+    .firstHeader{
+        text-align: center;
+        font-size: 1.1rem;
+    }
+    .secondHeader{
+        font-size: 1.1rem;
+    } 
+    .buttonBuy{
+        padding:5px 10px;
+    }
+}
+@media only screen and (max-width:600px){
+.loveTodo{
+    font-size: 1.1rem;
+}
+.mainText{
+    text-align: center;
+    padding:10px 50px 10px 50px;
+}
+}
+@media only screen and (max-width:600px){
+.pictureofDesigners{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.allDesigners{
+    padding-top: 20px;
+}
+.allDesigners>p{
+    padding-left: 20px;
+}
+.explanation{
+    padding:40px 35px 0px 40px;
+}
+.servicePart{
+    background-color:#131a1d ;
+    width: 100%;
+    height: 870px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.addition,.additions{
+    display: flex;
+    align-items: center;
+    font-size: 8px;
+    padding:0px !important;
+}
+.addition::after{
+    content:"";
+    display: block;
+    background-color: white;
+    width:5px;
+    height:5px;
+    margin-left: 15px;
+}
+.nextDivision{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ourImage>img{
+    display: flex;
+    align-items: center;
+    width:90%;
+    margin-right: 500px;
+}
+.ourImageSlogan{
+    display: flex;
+    align-items: center;
+    margin-left: 125px;
+}
+.buttonLive{
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+}
+.ourSloganText{
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+}
+
+.imageDivision{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.textImage{
+    width:100%;
+    display: flex;
+}
+.imageShow{
+    display: flex;
+    width: 100%;
+}
+.imageShow>img{
+    display: flex;
+    width: 100%;
+}
+.useImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.secondImageShow{
+    display: flex;
+    width: 100%;
+}
+.secondImageShow>img{
+    display: flex;
+    width: 100%;
+}
+.ourPortfolio{
+    font-size: 1.1rem;
+    text-align: center;
+    padding-left: 20px;
+}
+.portfolioText{
+    text-align: center;
+    padding-left: 20px;
+}
+.textPart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.successText{
+    display: flex;
+    align-items: center;
+    padding:0px 50px;
+}
+.numberDivision{
+    height: 870px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.successPart{
+    font-size: 1.1rem;
+}
+.numberPart,.number,.secondPart{
+    display: flex;
+    align-items: center;
+}
+.identity{
+    font-size: 1.1rem;
+}
+.aboutMessage{
+    padding: 10px 60px;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:60px 120px;
+}
+.projectName{
+    margin-left: 100px;
+}
+.supporting{
+    padding-top: 10px;
+    margin-left: 125px;
+}
+.ourProject,.experienceProject{
+    padding-right: 120px;
+}
+.ourExperience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:60px 120px;
+}
+.ourExperiencePart{
+    margin-left: 70px;
+}
+.teamCommunication{
+    padding-top: 10px;
+    margin-left: 125px;
+}
+.teamMembersQuote>p{
+    padding:0px 60px;
+}
+.ourTeam{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skillsPart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skillsText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ourSkills{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.ourSkillsText{
+    padding-left: 20px;
+}
+.skillsStatistics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 870px;
+}
+.ourSponsor{
+    padding:30px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ourSponsor>img{
+    padding:30px;
+}
+.ourQuote{
+    height: 500px;
+}
+.connectionDetails{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ourConnectionDetails{
+    padding:30px;
+}
+.loginDetails{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+}
+.messageArea{
+    height:300px;
+}
+.customerMessage{
+    width:80%;
+    margin-left: 20px;
+}
+.lastDivision>p{
+    /* padding-left: 60px; */
+    text-align: center;
+}
+}
+}
